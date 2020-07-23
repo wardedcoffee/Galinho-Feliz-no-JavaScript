@@ -1,15 +1,13 @@
 const root = document.querySelector('#root')
-const textTitle = 'Marcos'
-const textSmall = 'Text pequeno'
-const otherText = 'Outro texto'
+const textTitle = 'Dificuldade'
+
 
 // Tagged Template String
 const title = Title`
     color: red;
-    ${textTitle}
     font-size: 20px;
-    ${textSmall}
-    ${otherText}
+    ${textTitle}
+    
 `
 
 root.insertAdjacentHTML("beforeend", title)
