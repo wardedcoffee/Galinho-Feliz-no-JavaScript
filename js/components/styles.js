@@ -18,6 +18,7 @@ body {
         font-family: 'Press Start 2P', cursive;
         background-color: #3B3B98;
         width: 40vw;
+        min-width: 768px;
         height: 65vh;
         text-align: center;
         padding-top: 4rem;
