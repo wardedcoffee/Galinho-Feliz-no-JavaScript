@@ -7,8 +7,7 @@ function Title(css, ...values) {
 
             
         
-            <small>${values[1]}</small>
-            <em>${values[2]}</em>
+          
 
         </h1>`
 }
