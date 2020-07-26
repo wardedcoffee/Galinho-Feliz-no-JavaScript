@@ -1,1 +1,1 @@
-Galinho Feliz no JavaScript
+Mini curso Slider Feliz no JavaScript - com Marco Bruno Dev
