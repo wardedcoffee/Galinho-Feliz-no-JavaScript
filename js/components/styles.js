@@ -1,5 +1,12 @@
-const css = `<style>
-    * {
+const css = `
+<style>
+:root {
+    --line-height: 10px;
+    --happy-color: #EAB543;
+    --action-color: #F8EFBA;
+}
+
+* {
         margin: 0;
         padding: 0;
         border: none;
@@ -14,6 +21,9 @@ body {
 }
 
     #root {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         box-sizing: border-box;
         font-family: 'Press Start 2P', cursive;
         background-color: #3B3B98;
@@ -22,6 +32,8 @@ body {
         height: 65vh;
         text-align: center;
         padding-top: 4rem;
+        padding-bottom: 8rem;
+
     }
 </style>`
 

@@ -15,8 +15,3 @@ const wrapperCharacters = WrapperCharacters`
     ${gueio + gueio + gueio}
 
 `
-
-
-wrapperCharacters.insertAdjacentHTML('beforeend', gueio)
-wrapperCharacters.insertAdjacentHTML('beforeend', gueio)
-wrapperCharacters.insertAdjacentHTML('beforeend', gueio)
